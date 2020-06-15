@@ -56,3 +56,32 @@ terraform destroy -target aws_instance.Udacity_M4
   
 2. Take a screenshot of the EC2 instances page
 3. Take a screenshot of the VPC page 
+
+
+
+Initial cost estimate
+
+https://calculator.aws/#/estimate?id=6d4ee63ef745f717ebc641fb140749aa2c80d737
+
+
+
+Reduced cost estimate
+
+
+https://calculator.aws/#/estimate?id=71c791733e67ceba3d7cf27b596069ad50349b19
+
+
+Increased_Cost Estimate
+
+https://calculator.aws/#/estimate?id=dabcb26f15c985584915fb74d279f3942a0ef3b8
+
+
+### Useful links
+
+https://calculator.aws/#/createCalculator
+
+https://www.ec2instances.info/
+
+https://aws.amazon.com/es/blogs/aws/estimate-your-c/
+
+https://servebolt.com/articles/calculate-how-many-simultaneous-website-visitors/

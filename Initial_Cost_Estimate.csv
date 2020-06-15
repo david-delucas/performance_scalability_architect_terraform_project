@@ -1,0 +1,20 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,4878,444.914,10216.97,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 1 TB per month 
+ Outbound (to: Amazon Cloud Front) 2 TB per month 
+ Intra-Region 1 TB per month 
+"
+My Estimate,US East (N. Virginia),S3 Standard,0,115.57,1386.84,USD,S3 Standard storage (5000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 100 TB per month 
+ Outbound (to: Amazon Cloud Front) 100 TB per month 
+"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,967.25,11607.00,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,4259.98,51119.76,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Additional backup storage (1000 GB)"
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,2082.49,24989.88,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month)"
+My Estimate,US East (N. Virginia),Amazon EC2,3308,314.09800000000007,7077.18,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 1 TB per month 
+ Outbound (to: Amazon Cloud Front) 2 TB per month 
+ Intra-Region 1 TB per month 
+"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

@@ -1,0 +1,18 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,14634,1257.842,29728.10,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Advance EC2 instance (r6g.12xlarge), Pricing strategy (undefined 1 Year  Partial upfront), Data transfer cost (20.48)"
+My Estimate,US East (N. Virginia),S3 Standard,0,115.57,1386.84,USD,S3 Standard storage (5000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 100 TB per month 
+ Outbound (to: Amazon Cloud Front) 100 TB per month 
+"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,4471.25,53655.00,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,8418.06,101016.72,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.16xlarge), Additional backup storage (1000 GB)"
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,4161.53,49938.36,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.16xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,9924,865.394,20308.73,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Advance EC2 instance (c6g.12xlarge), Pricing strategy (undefined 1 Year  Partial upfront), Data transfer cost (20.48)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+
+The instance types have been increased in size for the web and app tier and also the RDS instance have been increased in size.
+Besides that the elastic load balancer capacity have been significantly increased. It is expected that this will have the greater impact in application performance under high traffic.
