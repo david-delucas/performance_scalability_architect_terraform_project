@@ -18,9 +18,6 @@ Plan and provision a cost-effective AWS infrastructure for a new social media ap
 ### provision a cost-effective AWS infrastructure for a new social media application 
 
 
-![Architecture diagram](./Task_1/Udacity_Diagram_1.pdf)
-
-
 ## Project  Instructions
 
 ### Exercise 1
