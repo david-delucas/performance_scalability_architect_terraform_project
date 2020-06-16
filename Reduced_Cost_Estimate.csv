@@ -1,13 +1,22 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (N. Virginia),Amazon EC2,2118.168,97.288,3285.62,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Advance EC2 instance (r6g.xlarge), Pricing strategy (EC2 Instance Savings Plans 3 Year  Partial upfront), Data transfer cost (20.48)"
+My Estimate,US East (N. Virginia),Amazon EC2,2118.168,97.288,3285.62,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 1 TB per month 
+ Outbound (to: Amazon Cloud Front) 2 TB per month 
+ Intra-Region 1 TB per month 
+"
 My Estimate,US East (N. Virginia),S3 Standard,0,115.57,1386.84,USD,S3 Standard storage (5000 GB per month)
 My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 100 TB per month 
  Outbound (to: Amazon Cloud Front) 100 TB per month 
 "
 My Estimate,US East (N. Virginia),Elastic Load Balancing,0,967.25,11607.00,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,4259.98,51119.76,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.8xlarge), Additional backup storage (1000 GB)"
-My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,1046.42,12557.04,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.2xlarge)"
-My Estimate,US East (N. Virginia),Amazon EC2,826,107.36200000000001,2114.34,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Advance EC2 instance (c6g.xlarge), Pricing strategy (undefined 1 Year  Partial upfront), Data transfer cost (20.48)"
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,2180.94,26171.28,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.4xlarge), Additional backup storage (1000 GB)"
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,526.66,6319.92,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,826,107.36200000000001,2114.34,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 1 TB per month 
+ Outbound (to: Amazon Cloud Front) 2 TB per month 
+ Intra-Region 1 TB per month 
+"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,257.85,3094.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,819.2,9830.40,USD,"Data Transfer, Data transfer cost (819.2)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,819.2,9830.40,USD,"Data Transfer, Data transfer cost (819.2)"
 
 
 

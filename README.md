@@ -58,19 +58,18 @@ terraform destroy -target aws_instance.Udacity_M4
 
 Initial cost estimate
 
-https://calculator.aws/#/estimate?id=6d4ee63ef745f717ebc641fb140749aa2c80d737
-
+https://calculator.aws/#/estimate?id=0db76c19a15e461993ac818264f16a8923fb068e
 
 
 Reduced cost estimate
 
 
-https://calculator.aws/#/estimate?id=71c791733e67ceba3d7cf27b596069ad50349b19
+https://calculator.aws/#/estimate?id=071486fd025e156876d3731d73c79dcd8df202b7
 
 
 Increased_Cost Estimate
 
-https://calculator.aws/#/estimate?id=dabcb26f15c985584915fb74d279f3942a0ef3b8
+https://calculator.aws/#/estimate?id=b67032ff452583cdc65801530ac645edc80eae60
 
 
 ### Useful links

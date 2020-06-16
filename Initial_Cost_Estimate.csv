@@ -1,5 +1,5 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (N. Virginia),Amazon EC2,4878,444.914,10216.97,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 1 TB per month 
+My Estimate,US East (N. Virginia),Amazon EC2,3308,314.09800000000007,7077.18,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 1 TB per month 
  Outbound (to: Amazon Cloud Front) 2 TB per month 
  Intra-Region 1 TB per month 
 "
@@ -14,6 +14,9 @@ My Estimate,US East (N. Virginia),Amazon EC2,3308,314.09800000000007,7077.18,USD
  Outbound (to: Amazon Cloud Front) 2 TB per month 
  Intra-Region 1 TB per month 
 "
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,482.85,5794.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,409.6,4915.20,USD,"Data Transfer, Data transfer cost (409.6)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,409.6,4915.20,USD,"Data Transfer, Data transfer cost (409.6)"
 
 
 
